@@ -1,0 +1,47 @@
+.corpo{
+    width: 100vw;
+    height: 100vh;
+    background-color: #959595;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.cartao1{
+    background-color: blue;
+    min-height: 50px;
+    min-height: 50px;
+    border: solid 3px #000000;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    
+}
+.menu__titulo{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+   
+}
+.cartao2{
+    background-color: red;
+    min-height: 50px;
+    min-height: 50px;
+    border: solid 3px #000000;
+    border-radius: 15px;
+}
+.cartao3{
+    background-color: green;
+    min-height: 50px;
+    min-height: 50px;
+    border: solid 3px #000000;
+    border-radius: 15px;
+}
+.cartao4{
+    background-color: yellow;
+    min-height: 50px;
+    min-height: 50px;
+    border: solid 3px #000000;
+    border-radius: 15px;
+}
